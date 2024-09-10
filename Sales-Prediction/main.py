@@ -1,14 +1,13 @@
 #
-# Name
-# Date
+# Alice J Black
+# 2024-09-09
 # Sales Prediction Programming Project
-# COSC 2409 DNT
+# COSC 1010
 #
 
-# Variables to hold the sales total and the profit
-
-# Get the amount of projected sales.
-
-# Calculate the projected profit.
-
-# Print the projected profit.
+# Get the projected total sales.
+total_sales = float (input ('Enter the projected sales: '))
+# Calculate the profit as 23 percent of total sales.
+profit = total_sales * 0.23
+# Display the profit.
+print ('The profit is $', format(profit, ',.2f'))
