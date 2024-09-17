@@ -12,15 +12,15 @@
 # Print area comparison using if-elif-else statements
 
 # Get length A
-length_1 = float(input('Enter length for triangle #1: '))
+length_1 = float(input('Enter length #1: '))
 # Get width A
-width_1 = float(input('Enter width for triangle #1: '))
+width_1 = float(input('Enter width #1: '))
 # Get area A
 area_1 = length_1 * width_1
 # Get length B
-length_2 = float(input('Enter length for triangle #2: '))
+length_2 = float(input('Enter length #2: '))
 # Get width A
-width_2 = float(input('Enter width for triangle #2: '))
+width_2 = float(input('Enter width #2: '))
 # Get Area 2
 area_2 = length_2 * width_2
 #Calculate areas A and B
