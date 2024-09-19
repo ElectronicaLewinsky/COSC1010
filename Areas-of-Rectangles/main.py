@@ -35,4 +35,4 @@ print('Rectangle #1 has the greatest area at', area_1, 'inches.')
 elif area_2 > area_1:
 print('Rectangle #2 has the greatest area at', area_2, 'inches.')
 elif area_1 == area_2:
-print('Rectangles #1 and #2 have the SAME area at', area_1, 'inches')
+print('Rectangles #1 and #2 have the SAME area at', area_1+area_2, 'inches.')
