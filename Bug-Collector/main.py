@@ -5,7 +5,7 @@
 # COSC 1010
 #
 #
-#otal bugs
+# Total bugs
 total_bugs = 0
 #
 # Loop for a specific number of days 
