@@ -1,11 +1,20 @@
 #
-# Name
-# Date
+# Alice J Black
+# 2024SEP24
 # Bug Collector Programming Project
-# COSC 2409 DNT
+# COSC 1010
 #
-# Initialize variables for bugs and total number of bugs collected.
+#
+#otal bugs
+total_bugs = 0
+#
+# Loop for a specific number of days 
+for day in range(1, 6):
+    # Ask the user to enter amount collected
+    bugs_collected = int(input(f"Enter the amount of bugs collected on day {day}: "))
 
-# Get number of bugs collected each day using a for loop.
+    # Add amount to total
+    total_bugs += bugs_collected
 
-# Display the total number of bugs collected.
+# Display the total number of bugs collected
+print("Total bugs collected:", total_bugs)
