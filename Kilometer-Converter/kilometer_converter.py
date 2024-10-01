@@ -1,8 +1,8 @@
 #
-# Name
-# Date
+# Alice J Black
+# 2024SEP30
 # Kilometer Converter Programming Project
-# COSC 2409 DNT
+# COSC 1010
 #
 # Define km
 feet = float(input("Please enter value in km:"))
