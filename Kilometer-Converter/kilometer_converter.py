@@ -7,6 +7,6 @@
 # Define km
 km = float(input("Please enter value in km:"))
 # Calculate amount of miles
-mi = kilometers * conv_fac
+mi = km * .6412
 # Display mi
 print(mi, " mi")
