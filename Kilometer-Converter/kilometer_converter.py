@@ -5,8 +5,8 @@
 # COSC 1010
 #
 # Define km
-feet = float(input("Please enter value in km:"))
+km = float(input("Please enter value in km:"))
 # Calculate amount of miles
-miles = kilometers * conv_fac
+mi = kilometers * conv_fac
 # Display mi
 print(mi, " mi")
