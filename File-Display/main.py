@@ -1,7 +1,11 @@
 #
-# Name
-# Date
+# Alice J Black
+# 2024OCT21
 # File Display Programming Project
-# COSC 2409 DNT
+# COSC 1010
 #
-# Use comments liberally throughout the program. 
+# Open file
+f = open("/Users/main/Documents/COSC1010/COSC1010-main/File-Display/numbers.txt","r")
+# Read and display contents
+print(f.read())
+f.close()
