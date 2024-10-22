@@ -5,19 +5,16 @@
 # COSC 1010
 #
 #
-#
-# Define the amount of variables
-print("Enter the Value of n: ")
-n = int(input())
-# Define variables
-print("Enter " +str(n)+ " Numbers: ")
-nums = []
-for i in range(n):
-    nums.insert(i, int(input()))
-# Calculate average 
-sum = 0
-for i in range(n):
-    sum = sum+nums[i]
-
-avg = sum/n
-print("\nAverage = ", avg)
+# 
+# Open file
+loop_count = 0
+total = 0
+data = open("/Users/main/Documents/COSC1010/COSC1010-main/Average-of-Numbers/numbers.txt","r")
+# Read data
+for line in data.readlines():
+    # Calculate average
+    total = total + int(line)
+    loop_count += 1
+avg = total/loop_count
+# Display average
+print (avg)
